@@ -1,9 +1,9 @@
 {
   "name": "styleguide",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "dependencies": {
-    "@uleen/components": "^1.0.1",
+    "@uleen/components": "^1.0.2",
     "catalog": "^3.4.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
