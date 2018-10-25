@@ -1,6 +1,6 @@
 {
   "name": "@uleen/components",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "my private components",
   "main": "dist/index.js",
   "publishConfig": {
