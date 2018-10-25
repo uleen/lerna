@@ -1,16 +1,17 @@
 const path = require('path');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
-const pkg = require('./package.json');
+const pkg = require('./../../package.json');
 const libraryName= pkg.name;
+const BASE_PATH = path.join(__dirname, '../..');
 
 module.exports = {
-  entry: path.join(__dirname, "./src/index.tsx"),
+  entry: path.resolve(BASE_PATH, 'src/index.tsx'),
   output: {
-    path: path.join(__dirname, './dist'),
+    path: path.resolve(BASE_PATH, 'dist'),
     filename: 'index.js',
     library: libraryName,
     libraryTarget: 'umd',
-    publicPath: '/dist/',
+    publicPath: '/',
     umdNamedDefine: true
   },
   resolve: {

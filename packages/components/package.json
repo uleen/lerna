@@ -3,11 +3,12 @@
   "version": "1.0.6",
   "description": "my private components",
   "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "build": "webpack-cli --mode=production",
+    "build": "./scripts/build.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "uleen",
@@ -23,6 +24,8 @@
     "@types/react-dom": "^16.0.9",
     "@types/webpack-env": "^1.13.6",
     "babel-loader": "^8.0.4",
+    "flowgen": "^1.3.0",
+    "glob": "^7.1.3",
     "source-map-loader": "^0.2.4",
     "ts-loader": "^5.2.2",
     "tslint": "^5.11.0",
