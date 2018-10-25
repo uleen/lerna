@@ -1,0 +1,16 @@
+node_modules
+coverage
+dist/
+.idea
+.vscode
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+.DS_Store
+__diff_output__
+*test-report.xml
+*dist-styleguide
