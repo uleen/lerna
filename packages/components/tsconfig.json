@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "baseUrl": "src",
+    "paths": { 
+      "@src/*": ["./*"],
+      "@config/*": ["../config/*"],
+      "redux": ["node_modules/redux"],
+      "@productsRoute/*": ["./routes/productsRoute/*"],
+      "@summaryRoute/*": ["./routes/summaryRoute/*"],
+      "@errorRoute/*": ["./routes/errorRoute/*"],
+      "@privateRoute/*": ["./routes/privateRoute/*"]
+    },
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node",
+    "declaration": false,
+    "jsx": "react",
+    "sourceMap": true,
+    "noLib": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "types": ["webpack-env", "jest"],
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "noImplicitAny": false,
+    "noEmitHelpers": true,
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "pretty": true,
+    "removeComments": true,
+    "outDir": "ts-build", // output directory to build to (irrelevant because we use Webpack most of the time)
+    "strict": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "compileOnSave": false,
+  "exclude": [
+    "**node_modules*", // don't run on any code in the node_modules directory
+    "../dist",
+    "../coverage",
+    "../.idea",
+    "../ts-build"
+  ]
+}

@@ -1,9 +1,8 @@
 import * as React from 'react';
 
-const Button = () => {
-  return (
-    <div>Awesome Button</div>
-  );
-};
+export const Button: React.SFC<{}> = (props): JSX.Element => {
 
-export default Button;
+    return (
+      <button>Awesome button</button>
+    );
+};

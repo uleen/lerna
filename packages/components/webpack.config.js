@@ -13,6 +13,9 @@ module.exports = {
     publicPath: '/dist/',
     umdNamedDefine: true
   },
+  resolve: {
+    extensions: [".tsx", ".ts", ".js"],
+  },
   module: {
     rules: [
       {
