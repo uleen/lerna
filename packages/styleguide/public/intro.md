@@ -1,6 +1,6 @@
 # Project Components
 ```
-Awesome
+Awesome 1
 ```
 
 ```react
