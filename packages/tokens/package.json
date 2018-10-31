@@ -11,5 +11,6 @@
   "license": "MIT",
   "devDependencies": {
     "js-yaml": "3.12.0"
-  }
+  },
+  "gitHead": "6fb2b44ec1ad79feb80f6dc7507130f404096d4d"
 }
