@@ -1,6 +1,6 @@
 {
   "name": "@uleen/components",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "my private components",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -46,6 +46,6 @@
   },
   "gitHead": "6fb2b44ec1ad79feb80f6dc7507130f404096d4d",
   "dependencies": {
-    "@uleen/tokens": "^1.0.2"
+    "@uleen/tokens": "^1.0.3"
   }
 }
