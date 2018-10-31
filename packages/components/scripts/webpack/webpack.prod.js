@@ -3,6 +3,7 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const pkg = require('./../../package.json');
 const libraryName= pkg.name;
 const BASE_PATH = path.join(__dirname, '../..');
+const ICON_PATH = path.join(__dirname, '../..', 'src/Icon/resources');
 
 module.exports = {
   entry: path.resolve(BASE_PATH, 'src/index.tsx'),
@@ -41,6 +42,22 @@ module.exports = {
           loader: 'babel-loader',
         },
       },
+      {
+        test: /\.(png|jpg|gif|svg|woff|woff2)$/,
+        loader: 'url-loader',
+        exclude: ICON_PATH,
+        options: {
+            limit: 100000
+        }
+      },
+      {
+        test: /\.svg$/i,
+        include: ICON_PATH,
+        loader: 'svg-sprite-loader',
+        options: {
+            symbolId: 'ui-icon-[name]'
+        }
+      }
     ],
   },
   plugins: [

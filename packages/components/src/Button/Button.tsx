@@ -24,7 +24,7 @@ interface ElementProps {
     referrerPolicy?: 'no-referrer' | 'no-referrer-when-downgrade' | 'origin' | 'origin-when-cross-origin' | 'unsafe-url';
 }
 
-const Button: React.SFC<Props & ElementProps> = (props): JSX.Element => {
+export const Button: React.SFC<Props & ElementProps> = (props): JSX.Element => {
     const { children, design, size, grid, loading, ...attrs } = props;
 
     let icons = 0;
@@ -58,5 +58,3 @@ Button.defaultProps = {
     grid: 0,
     type: 'button',
 };
-
-export default Button;

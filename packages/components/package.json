@@ -1,6 +1,6 @@
 {
   "name": "@uleen/components",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "my private components",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -29,10 +29,12 @@
     "source-map-loader": "^0.2.4",
     "styled-components": "4.0.3",
     "styled-theming": "2.2.0",
+    "svg-sprite-loader": "4.1.3",
     "ts-loader": "^5.2.2",
     "tslint": "^5.11.0",
     "tslint-react": "^3.6.0",
     "typescript": "^3.1.3",
+    "url-loader": "1.1.2",
     "webpack": "^4.23.0",
     "webpack-cli": "^3.1.2"
   },
@@ -44,6 +46,6 @@
   },
   "gitHead": "6fb2b44ec1ad79feb80f6dc7507130f404096d4d",
   "dependencies": {
-    "@uleen/tokens": "^1.0.1"
+    "@uleen/tokens": "^1.0.2"
   }
 }
