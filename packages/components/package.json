@@ -37,5 +37,8 @@
   "peerDependencies": {
     "react": "^16.6.0"
   },
-  "gitHead": "2339b2f9cf7187d4829806136907dda5dd11f2cf"
+  "gitHead": "2339b2f9cf7187d4829806136907dda5dd11f2cf",
+  "dependencies": {
+    "@uleen/tokens": "^1.0.0"
+  }
 }
