@@ -1,0 +1,85 @@
+global:
+    primary:
+        value: '#000'
+        description: 'Global typography color'
+    secondary:
+        value: 'rgba(0, 0, 0, .68)'
+        description: 'Secondary Text, Icons, Links / Page Overlay'
+    line:
+        value: 'rgba(0, 0, 0, 0.2)'
+        description: 'Separators / Borders / Dividers'
+    active:
+        value: '#ffda00'
+        description: 'Active Toggle/Switch'
+    inactive:
+        value: '#dfdfdf'
+        description: 'Inactive Toggle/Switch'
+    disabled:
+        value: 'rgba(0, 0, 0, .4)'
+        description: 'Disabled, Inactive, Placeholder, Hint, Helper (Text, Links, Tabs)'
+    hover:
+        value: 'rgba(0, 0, 0, 0.08)'
+        description: 'Hover'
+    selected:
+        value: '#fff9c4'
+        description: 'Selected Items, Table Rows'
+    tag:
+        value: '#9b5ba5'
+        description: 'Filter Tags'
+    link:
+        value: '#018ffe'
+        description: 'Links'
+
+context:
+    corporate:
+        value: '#ffed00'
+        description: 'Corporate, Buttons, Backgrounds'
+    critical:
+        value: '#d91e00'
+        description: 'Errors, Notify Background'
+    critical-light:
+        value: '#ff936f'
+        description: 'Errors Light'
+    success:
+        value: '#018e01'
+        description: 'Success, Notify Background'
+    success-light:
+        value: '#b8e986'
+        description: 'Success Light'
+    warning:
+        value: '#f89500'
+        description: 'Warning Icons'
+    warning-light:
+        value: '#fcc900'
+        description: 'Warning Light'
+
+preset:
+    menu:
+        background:
+            value: '#3c3c3c'
+            description: 'Side Menu Background'
+        typography:
+            value: '#000'
+            description: ''
+    section:
+        background:
+            value: '#ececec'
+            description: 'Section Headers Background'
+    page:
+        background:
+            value: '#f5f5f5'
+            description: 'Page Background, Disabled Background/Selected State'
+
+shadow:
+    s:
+        value: '0 2px 2px 0 rgba(0, 0, 0, .08)'
+        description: 'Shadow size S'
+    m:
+        value: '0 1px 4px 0 rgba(0, 0, 0, .12)'
+        description: 'Shadow size M'
+    l:
+        value: '0 4px 12px 0 rgba(0, 0, 0, .12)'
+        description: 'Shadow size L'
+    xl:
+        value: '2px 0 8px 0 rgba(0, 0, 0, .24)'
+        description: 'Menu'

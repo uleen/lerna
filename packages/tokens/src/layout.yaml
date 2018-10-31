@@ -1,0 +1,74 @@
+grid:
+    0: 'auto'
+    1: '8.33%' # 1 / 12 * 100
+    2: '16.66%'
+    3: '25%'
+    4: '33.33%'
+    5: '41.66%'
+    6: '50%'
+    7: '58.33%'
+    8: '66.66%'
+    9: '75%'
+    10: '83.33%'
+    11: '91.66%'
+    12: '100%'
+
+space:
+    xxs:
+        value: '4px'
+        description: ''
+    xs:
+        value: '8px'
+        description: ''
+    s:
+        value: '12px'
+        description: ''
+    m:
+        value: '16px'
+        description: ''
+    l:
+        value: '20px'
+        description: ''
+    xl:
+        value: '24px'
+        description: ''
+    xxl:
+        value: '28px'
+        description: ''
+    xxxl:
+        value: '32px'
+        description: ''
+
+height:
+    control:
+        xs:
+            value: '24px'
+            description: ''
+        s:
+            value: '32px'
+            description: ''
+        m:
+            value: '36px'
+            description: ''
+        l:
+            value: '40px'
+            description: ''
+        xl:
+            value: '48px'
+            description: ''
+    icon:
+        xs:
+            value: '12px'
+            description: ''
+        s:
+            value: '16px'
+            description: ''
+        m:
+            value: '20px'
+            description: ''
+        l:
+            value: '24px'
+            description: ''
+        xl:
+            value: '32px'
+            description: ''

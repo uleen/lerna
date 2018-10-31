@@ -1,0 +1,47 @@
+family:
+    base:
+        value: Helvetica, 'Helvetica New', Arial, sans-serif
+        description: ''
+    monospace:
+        value: Monaco, Consolas, monospace
+        decsription: ''
+
+size:
+    xs:
+        value: '12px'
+        description: ''
+    s:
+        value: '12px'
+        description: ''
+    m:
+        value: '14px'
+        description: ''
+    l:
+        value: '16px'
+        description: ''
+    xl:
+        value: '20px'
+        description: ''
+    xxl:
+        value: '24px'
+        description: ''
+
+height:
+    xs:
+        value: '12px'
+        description: ''
+    s:
+        value: '16px'
+        description: ''
+    m:
+        value: '20px'
+        description: ''
+    l:
+        value: '24px'
+        description: ''
+    xl:
+        value: '28px'
+        description: ''
+    xxl:
+        value: '36px'
+        description: ''
